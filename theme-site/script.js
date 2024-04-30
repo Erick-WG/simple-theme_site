@@ -14,7 +14,7 @@ themeButton.addEventListener('click', ()=>{
     // condition to control the button text based on the theme.
     className == 'light-theme' ? themeButton.textContent = 'Dark' : themeButton.textContent = 'Light'
 
-    console.log('Current class name: '+ className)
+    console.log(`Current class name: ${className}`)
 
 });
 
