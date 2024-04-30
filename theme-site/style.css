@@ -1,0 +1,56 @@
+/* Root variables */
+:root{
+  --light-tm-blue: #338bff;
+  --light-tm-txt: #fff;
+  --dark-tm-black: #0000;
+  --dark-tm-silver: #7c7c7c;
+  --dark-tm-dark-silver:#424241dd;
+  --dark-tm-txt: #a9ceff;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* styling for the navigation */
+
+.nav{
+  left: 0;
+}
+
+.nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+
+.theme-btn{
+  position: absolute;
+  right: 50px;
+  padding: 3px 15px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.container{
+  margin: 15px 15px 0px 15px;
+  padding: 10px 15px 0px 15px;
+}
+
+.light-theme{
+  background-color: var(--light-tm-blue);
+  color: var(--light-tm-txt);
+}
+
+.dark-theme{
+  background-color: var(--dark-tm-dark-silver);
+  color: var(--dark-tm-txt);
+}
